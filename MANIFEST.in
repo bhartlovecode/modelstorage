@@ -1,0 +1,2 @@
+recursive-include modelstorage/server/templates *
+recursive-include modelstorage/server/static *

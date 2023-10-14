@@ -1,8 +1,4 @@
-from argparse import ArgumentParser
+from modelstorage.server import _run_server
 
 def main():
-    parser = ArgumentParser()
-    parser.add_argument("mynum", type=int, help="My number to test")
-    args = parser.parse_args()
-
-    print(args.mynum)
+    _run_server()
